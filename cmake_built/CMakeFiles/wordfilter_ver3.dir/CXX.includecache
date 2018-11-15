@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/wordfilter_ver3/wordfilter_ver3.cpp
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+cstring
+-
+math.h
+-
+string
+-
+algorithm
+-
+vector
+-
+fstream
+-
+
