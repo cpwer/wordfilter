@@ -1,5 +1,5 @@
 # wordfilter
-Cmake_built為以CMake建置之專案
+Cmake_built為以CMake建置之專案 \n
 wordfilter_ver3.cpp 為原生程式碼
 wordfilter_ver3.exe 原生程式碼的執行檔
 測試用句子.txt 內容為10句測試所使用的不同長度句子
