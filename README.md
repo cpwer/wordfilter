@@ -1,9 +1,14 @@
 # wordfilter
-Cmake_built為以CMake建置之專案 \n
+Cmake_built為以CMake建置之專案 
+
 wordfilter_ver3.cpp 為原生程式碼
+
 wordfilter_ver3.exe 原生程式碼的執行檔
+
 測試用句子.txt 內容為10句測試所使用的不同長度句子
+
 filter.txt 是題目之要求test case 約140K個關鍵字
+
 Wordfilter測試執行與分析.PDF 是分析報告
 
 
