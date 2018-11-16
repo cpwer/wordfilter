@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/wordfilter_ver3/wordfilter_ver3.cpp
+E:/test2/wordfilter_ver3.cpp
 stdio.h
 -
 stdlib.h
@@ -24,5 +24,7 @@ algorithm
 vector
 -
 fstream
+-
+time.h
 -
 
