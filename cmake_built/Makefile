@@ -47,10 +47,10 @@ RM = D:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\test2
+CMAKE_SOURCE_DIR = E:\wordfilter_ver4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\test2\cmake_built
+CMAKE_BINARY_DIR = E:\wordfilter_ver4\cmake_built
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\test2\cmake_built\CMakeFiles E:\test2\cmake_built\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\wordfilter_ver4\cmake_built\CMakeFiles E:\wordfilter_ver4\cmake_built\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\test2\cmake_built\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\wordfilter_ver4\cmake_built\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named wordfilter_ver3
+# Target rules for targets named wordfilter_ver4
 
 # Build rule for target.
-wordfilter_ver3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 wordfilter_ver3
-.PHONY : wordfilter_ver3
+wordfilter_ver4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 wordfilter_ver4
+.PHONY : wordfilter_ver4
 
 # fast build rule for target.
-wordfilter_ver3/fast:
-	$(MAKE) -f CMakeFiles\wordfilter_ver3.dir\build.make CMakeFiles/wordfilter_ver3.dir/build
-.PHONY : wordfilter_ver3/fast
+wordfilter_ver4/fast:
+	$(MAKE) -f CMakeFiles\wordfilter_ver4.dir\build.make CMakeFiles/wordfilter_ver4.dir/build
+.PHONY : wordfilter_ver4/fast
 
-wordfilter_ver3.obj: wordfilter_ver3.cpp.obj
+wordfilter_ver4.obj: wordfilter_ver4.cpp.obj
 
-.PHONY : wordfilter_ver3.obj
+.PHONY : wordfilter_ver4.obj
 
 # target to build an object file
-wordfilter_ver3.cpp.obj:
-	$(MAKE) -f CMakeFiles\wordfilter_ver3.dir\build.make CMakeFiles/wordfilter_ver3.dir/wordfilter_ver3.cpp.obj
-.PHONY : wordfilter_ver3.cpp.obj
+wordfilter_ver4.cpp.obj:
+	$(MAKE) -f CMakeFiles\wordfilter_ver4.dir\build.make CMakeFiles/wordfilter_ver4.dir/wordfilter_ver4.cpp.obj
+.PHONY : wordfilter_ver4.cpp.obj
 
-wordfilter_ver3.i: wordfilter_ver3.cpp.i
+wordfilter_ver4.i: wordfilter_ver4.cpp.i
 
-.PHONY : wordfilter_ver3.i
+.PHONY : wordfilter_ver4.i
 
 # target to preprocess a source file
-wordfilter_ver3.cpp.i:
-	$(MAKE) -f CMakeFiles\wordfilter_ver3.dir\build.make CMakeFiles/wordfilter_ver3.dir/wordfilter_ver3.cpp.i
-.PHONY : wordfilter_ver3.cpp.i
+wordfilter_ver4.cpp.i:
+	$(MAKE) -f CMakeFiles\wordfilter_ver4.dir\build.make CMakeFiles/wordfilter_ver4.dir/wordfilter_ver4.cpp.i
+.PHONY : wordfilter_ver4.cpp.i
 
-wordfilter_ver3.s: wordfilter_ver3.cpp.s
+wordfilter_ver4.s: wordfilter_ver4.cpp.s
 
-.PHONY : wordfilter_ver3.s
+.PHONY : wordfilter_ver4.s
 
 # target to generate assembly for a file
-wordfilter_ver3.cpp.s:
-	$(MAKE) -f CMakeFiles\wordfilter_ver3.dir\build.make CMakeFiles/wordfilter_ver3.dir/wordfilter_ver3.cpp.s
-.PHONY : wordfilter_ver3.cpp.s
+wordfilter_ver4.cpp.s:
+	$(MAKE) -f CMakeFiles\wordfilter_ver4.dir\build.make CMakeFiles/wordfilter_ver4.dir/wordfilter_ver4.cpp.s
+.PHONY : wordfilter_ver4.cpp.s
 
 # Help Target
 help:
@@ -155,12 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... wordfilter_ver3
+	@echo ... wordfilter_ver4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... wordfilter_ver3.obj
-	@echo ... wordfilter_ver3.i
-	@echo ... wordfilter_ver3.s
+	@echo ... wordfilter_ver4.obj
+	@echo ... wordfilter_ver4.i
+	@echo ... wordfilter_ver4.s
 .PHONY : help
 
 

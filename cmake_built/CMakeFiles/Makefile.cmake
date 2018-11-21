@@ -127,5 +127,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/wordfilter_ver3.dir/DependInfo.cmake"
+  "CMakeFiles/wordfilter_ver4.dir/DependInfo.cmake"
   )

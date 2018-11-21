@@ -1,2 +1,2 @@
-project(wordfilter_ver3)
-add_executable(wordfilter_ver3 wordfilter_ver3.cpp filter.txt)
+project(wordfilter_ver4)
+add_executable(wordfilter_ver4 wordfilter_ver4.cpp filter.txt)
