@@ -1,5 +1,17 @@
 # wordfilter
 
+-----------------------------------11/21新增-----------------------------------
+
+新增wordfilter修改與新增.PDF 
+
+codeblocks原始碼 updata為wordfilter_ver4.cpp 
+
+cmake_built更新為wordfilter_ver4之專案
+
+本次Wordfilter按照要求使用 dictionary tree  之結構修改其程式碼，使其時間複雜度不因filter.txt的大小影響，進而大幅縮小其時間複雜度。
+
+-------------------------------------------------------------------------------
+
 wordfilter_ver4.cpp 為codeblocks原始碼
 
 cmake_built 為CMake建置之c++專案
@@ -18,12 +30,4 @@ Filter.txt文件為題目所要求之test case，其內涵網路所搜索之大�
 
 測試用句子.txt是用來測試程式執行所使用的句子文件，僅含10句涉及一些敏感字與特定文字的文件，不同句子分別測試連續敏感字，中英混雜，純英句子不同狀況下其文字過濾器的效能狀況。
 
------------------------------------11/21新增-----------------------------------
 
-新增wordfilter修改與新增.PDF 
-
-codeblocks原始碼 updata為wordfilter_ver4.cpp 
-
-cmake_built更新為wordfilter_ver4之專案
-
-本次Wordfilter按照要求使用 dictionary tree  之結構修改其程式碼，使其時間複雜度不因filter.txt的大小影響，進而大幅縮小其時間複雜度。
